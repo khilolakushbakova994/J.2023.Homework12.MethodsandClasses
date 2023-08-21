@@ -1,11 +1,10 @@
 public class Book {
-
     private final String bookName;
     private int publishingYear;
-    private Author danBrown;
+    private final Author danBrown;
 
 
-    public Book(String bookName, int publishingYear, Author danBrown) {
+    public Book(String bookName,Author danBrown, int publishingYear) {
         this.bookName = bookName;
         this.danBrown = danBrown;
         this.publishingYear = publishingYear;
@@ -24,9 +23,5 @@ public class Book {
     public void setPublishingYear() {
         this.publishingYear =2022;
 
-    }
-
-    public static String toString() {
-        return "Название книги  " + bookName + " " + "Год выпуска книги   " + publishingYear;
     }
 }

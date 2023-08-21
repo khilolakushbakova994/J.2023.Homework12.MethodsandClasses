@@ -1,4 +1,5 @@
 public class Author {
+
     private final String danBrown;
 
     public Author(String danBrown) {
@@ -8,9 +9,5 @@ public class Author {
 
     public String getDanBrown() {
         return danBrown;
-    }
-
-    public String toString() {
-        return " Имя писателя  " + danBrown;
     }
 }
