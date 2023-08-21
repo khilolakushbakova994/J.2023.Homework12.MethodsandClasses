@@ -6,10 +6,11 @@ public class Author {
 
     }
 
-    public  String getDanBrown(){
-        return danBrown();
+    public String getDanBrown() {
+        return danBrown;
     }
-    public String toString () {
+
+    public String toString() {
         return " Имя писателя  " + danBrown;
     }
 }

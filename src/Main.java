@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String [] args) {
+    public void main(String[] args) {
 
         Book book1 = new Book(" The Da Vinci Code ", 2003, "Dan Brown");
 
@@ -10,6 +10,11 @@ public class Main {
 
 
         Author author2 = new Author("Jean Christophe Grange");
+
+        System.out.println( author.toString());
+        System.out.println();
+        System.out.println( book.toString());
+
 
 
 

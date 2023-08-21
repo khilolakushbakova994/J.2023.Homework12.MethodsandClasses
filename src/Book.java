@@ -26,7 +26,7 @@ public class Book {
 
     }
 
-    public String toString() {
+    public static String toString() {
         return "Название книги  " + bookName + " " + "Год выпуска книги   " + publishingYear;
     }
 }
