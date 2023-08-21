@@ -1,12 +1,15 @@
 public class Author {
-    private String nameSurname;
+    private final String danBrown;
 
-    public Author(String nameSurname) {
-        this.nameSurname = nameSurname;
+    public Author(String danBrown) {
+        this.danBrown = danBrown;
+
     }
 
-    String getNameSurname() {
-        return nameSurname;
+    public  String getDanBrown(){
+        return danBrown();
     }
-
+    public String toString () {
+        return " Имя писателя  " + danBrown;
+    }
 }
